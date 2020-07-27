@@ -1,0 +1,61 @@
+nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+header {
+	background-color: #323; 
+	color: #fff;
+	cursor: default;
+	height: 3.25em;
+	line-height: 3.25em;
+	position: absolute;
+	text-align: center;
+	top: 2em;
+	width: 100%;
+}
+
+header .inner {
+	margin: 0 auto;
+	position: relative;
+}
+
+header a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	display: inline-block;
+	padding: 0 0.75em;
+	color: inherit;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+header a:hover {
+	color: #378555;
+}
+header .logo {
+	color: #ffffff;
+	display: inline-block;
+	font-weight: 400;
+	height: inherit;
+	left: 10%;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	font-size: 1em;
+}
+
+header .logo strong {
+	color: #ffffff;
+	font-weight: 600;
+}
+
