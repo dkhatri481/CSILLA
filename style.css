@@ -1,28 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
 *{
 	margin: 0px;
 	padding: 0px;
 }
-nav{
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	margin-right: 12%;
+body{
+
+}
+p{
+	font-family: B612, Helvetica, sans-serif;
 }
 
-/*body{
-	background-image: url(https://images.unsplash.com/photo-1534474174078-24c09f689d06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=778&q=80);
-	background-repeat: no-repeat;
-	width: 100%;
-}*/
-
 header {
-	color: black;
+	color: #f2f3f4;
 	cursor: default;
+	font-family: B612, Helvetica, sans-serif;
 	height: 3.25em;
 	line-height: 3.25em;
 	position: absolute;
 	text-align: right;
-	top: 2em;
+	padding-top: 15px;
 	width: 100%;
 }
 
@@ -44,14 +41,15 @@ header a {
 }
 
 header a:hover {
-	color: #378555;
+	color: #e25822;
 }
+
 header .logo {
-	color: black;
+	color: white;
 	display: inline-block;
 	font-weight: 400;
 	height: inherit;
-	left: 10%;
+	left: 12%;
 	line-height: inherit;
 	position: absolute;
 	top: 0;
@@ -63,3 +61,19 @@ header .logo strong {
 	font-weight: 600;
 }
 
+nav{
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin-right: 12%;
+}
+
+.hero {
+  	background-image: url('images/csilla.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
